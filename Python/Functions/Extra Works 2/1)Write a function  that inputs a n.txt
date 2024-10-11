@@ -1,0 +1,11 @@
+1)Write a function  that inputs a number and returns the product of digits of that number.
+
+2) Write a function that finds the sum of proper divisors of a number. Proper divisors of a number are those numbers by which the number is divisible, except the number itself. For example proper divisors of 36 are 1, 2, 3, 4, 6, 9, 18
+
+3)A number is called perfect if the sum of proper divisors of that number is equal to the number. For example 28 is perfect number, since 1+2+4+7+14=28. Write a program to print all the perfect numbers in a given range
+
+4)Write a function that capitalizes the first and fourth letters of a name
+
+5)Given an integer n, return True if n is within 10 of either 100 or 200
+
+6)
