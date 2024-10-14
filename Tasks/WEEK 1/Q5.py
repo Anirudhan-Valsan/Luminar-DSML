@@ -15,4 +15,13 @@ for i in range(size):
     num = int(input())
     num_list.append(num)
 
-print("The largest number in the list is ",max(num_list), "and the minimum number is ",min(num_list))
+max = num_list[0]
+min = num_list[0]
+
+for num in num_list:
+    if num > max:
+        max = num
+    if num < min:
+        min = num
+
+print(f"The largest number in the list is {max} and smallest is {min}")
