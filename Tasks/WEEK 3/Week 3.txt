@@ -1,0 +1,32 @@
+1)Print numbers divisible by 3 or 5 from 1 to 20 using a for loop
+
+2)Print numbers from 1 to 10. If a number is divisible by 4, stop the loop using a for loop and break statement:
+
+3)Python program that accepts a word from the user and reverses it.
+
+4)Python program to check if a given number is an Armstrong number
+
+5)Python program to display all numbers within a range except the prime numbers.
+
+6)Python program to check the validity of password input by users.
+
+7)Write a program to accept a number and check whether its a perfect number or not. 
+Perfect number is a number which is equal to sum of its divisors. For ex: 6, its divisors are 1,2,3.
+ So sum of divisors 1+2+3 is also 6
+
+8)Write a python program to print all permutations using those three variables Original Collection: [1, 2, 3] Collection of Permutation.
+ [[3, 2, 1], [2, 3, 1], [2, 1, 3], [3, 1. 2]. [1. 3. 2]. [1, 2, 3]]
+
+9)Count the total number of digits in a number
+
+10)Write a python program to read four numbers (representing the four octets of an IP) and print the next five IP address
+Eg:
+Input:
+192 168 255 252
+Output
+
+192 168 255 253  
+192 168 255 254 
+192 168 255 255 
+192 169 0 0 
+192 169 0 1
