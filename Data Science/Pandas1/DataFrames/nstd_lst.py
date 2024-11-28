@@ -1,5 +1,3 @@
-#nested list  : id,fname,lname,age,prof,salary
-
 import pandas as pd
 
 employee = [[111,"Anirudhan","Valsan",25,"ML Engineer",150000],
@@ -14,24 +12,5 @@ columns = ["E_ID","F_NAME","L_NAME","AGE","PROFESSION","SALARY"]
 
 df =pd.DataFrame(employee,columns=columns )
 
-#df['Gender'] = ['Male','Male','Male','Male','Male','Male','Male']
-"""
-print(df)
-print("-"*100)
-print()
-print(df[columns[1:5]])
-#print(df[df.columns[1:5]].head(2))
+#print(df.sort_values(by = 'F_NAME',ascending=True))
 
-print(df.loc[df['AGE']>25])
-print('\n',"="*100,'\n')
-
-#python prof
-print(df.loc[(df['PROFESSION'] == 'ML Engineer') & (df['AGE']>23)] [df.columns[1:4]])
-"""
-
-
-df1 = df.drop(['F_NAME'],axis=1)
-print(df1.head())
-
-df2 = df1.drop_duplicates()
-print(df2)

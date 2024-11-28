@@ -1,0 +1,32 @@
+..................................
+customer
+.................................
+1. Find Row count
+
+2. Remove duplicates rows and find total row count
+
+3. Age maximum 10 fname,lname,prof,loc
+
+4. Age minimum 5 employees fname,lname,prof,loc
+
+5. Each location count [count desc order]
+
+6. Full data
+
+7. Each age group count [age desc order]
+
+8. Each profession count [count desc order]
+
+9. India work
+    A. Row count
+    B. Each profession count [count desc order]
+    C. Age mxm 3 employees fname,lname,age,prof
+    D. Age minimum 3 employees fname,lname,age,prof
+    E. age above 40 full data
+    F. age range 30 to 40 [profession count]
+
+10. us work
+    A. Row count
+    B. Each age group count
+    C. Each profession count [count desc]
+    D. Civil engineer dept and age above 30

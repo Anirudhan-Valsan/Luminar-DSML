@@ -19,7 +19,7 @@ print("-"*100)
 
 #Filling missing values
 df1 = df.fillna('UNKNOWN')
-"""
+
 
 #print(df[df.columns[1:5]].head())
 
@@ -44,3 +44,10 @@ y = df.iloc[:,-1]
 print(x)
 print('\n',"="*100,'\n')
 print(y)
+print(df.groupby('PROFESSION')['PROFESSION'].count().sort_values(ascending=False))
+print("="*100)
+
+print(df.groupby('COUNTRY')['COUNTRY'].count().sort_values(ascending=False))
+"""
+#print(df.groupby('PROFESSION') ['AGE'].max())
+print(df.groupby('COUNTRY') ['AGE'].max().sort_values(ascending=False))
