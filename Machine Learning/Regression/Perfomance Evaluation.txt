@@ -1,0 +1,15 @@
+1. MAE      : Mean Absolute error                          
+
+    1/n(modulus(summation(actual value - predicted value)))
+
+2. MAPE     : Mean absolute percentage error   
+
+3. MSE      : Mean Squared error  
+
+    1/n summation(actual - predicted)**2
+
+4. RMSE     : Root mean squared error
+
+    sqrt(1/n summation(actual - predicted)**2)
+
+5. R2 Score : Coefficience of determination
